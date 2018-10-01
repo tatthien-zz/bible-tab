@@ -44,7 +44,7 @@ new Vue({
     verseChapter () {
       return !this.verse ? '' : this.verse.chapter
     },
-    veserVerse () {
+    verseVerse () {
       return !this.verse ? '' : this.verse.verse
     },
     verseCode () {
@@ -55,9 +55,9 @@ new Vue({
       return map[this.verseCode] ? map[this.verseCode][this.selectedLocale] : ''
     },
     verseAddress () {
-      return this.verseBook + ' ' + this.verseChapter + ':' + this.veserVerse
+      return this.verseBook + ' ' + this.verseChapter + ':' + this.verseVerse
     },
-    verseWithAdress () {
+    verseWithAddress () {
       return this.verseContent + ' - ' + this.verseAddress
     },
     chapterURL () {
@@ -69,7 +69,7 @@ new Vue({
       }
     },
     verseURL () {
-      let address = `${this.verseCode}.${this.verseChapter}.${this.veserVerse}`
+      let address = `${this.verseCode}.${this.verseChapter}.${this.verseVerse}`
       let url = this.selectedLocale === 'vi' 
         ? `https://www.bible.com/bible/193/${address}`
         : `https://www.bible.com/bible/111/${address}`
