@@ -70,7 +70,7 @@ new Vue({
     },
     verseURL () {
       let address = `${this.verseCode}.${this.verseChapter}.${this.verseVerse}`
-      let url = this.selectedLocale === 'vi' 
+      let url = this.selectedLocale === 'vi'
         ? `https://www.bible.com/bible/193/${address}`
         : `https://www.bible.com/bible/111/${address}`
 
@@ -92,7 +92,7 @@ new Vue({
       let now = Date.now()
       let diff = now - savedTime
       let hourDiff = diff / (1000 * 60 * 60)
-    
+
       if (hourDiff > this.selectedInterval) {
         this.fetch()
       } else {
@@ -114,7 +114,7 @@ new Vue({
       }).then((verses) => {
         this.verse = verses[this.getIndex(verses.length)]
         setting.set('cached_verse', JSON.stringify(this.verse))
-        
+
         // reset the time
         setting.set('cached_time', Date.now())
       })
@@ -133,14 +133,14 @@ new Vue({
       this.isCopy = true
       this.$nextTick(() => {
         let input = this.$refs.copy_input
-  
+
         input.select()
-        
+
         document.execCommand('Copy')
-  
+
         // Show notification
         this.alert('✔ Copied to clipboard')
-      
+
         this.isCopy = false
       })
     },
@@ -158,7 +158,7 @@ new Vue({
         let value = field.value
         setting.set(name, value)
       }
-    
+
       // Show success message
       this.alert('✔ Your settings have been saved')
     },
@@ -182,15 +182,15 @@ new Vue({
         let remainHour = Math.floor(remainMin / 60)
 
         let hour = remainHour < 10 ? `0${remainHour}` : remainHour
-        
+
         let min = Math.floor(remainSecond / 60 - remainHour * 60)
         min = min < 10 ? `0${min}` : min
-        
+
         let sec = Math.floor(remainSecond - remainMin * 60)
         sec = sec < 10 ? `0${sec}` : sec
 
         this.delayRemain = `${hour}:${min}:${sec}`
       }, 1000)
     }
-  } 
+  }
 })

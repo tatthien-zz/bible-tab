@@ -22,10 +22,10 @@
             <div class="input-group">
               <label for="bible_version">Bible version</label>
               <select name="locale" id="bible_version" v-model="selectedLocale">
-                <option 
+                <option
                   v-for="locale in locales"
-                  :value="locale.key" 
-                  :key="locale.key" 
+                  :value="locale.key"
+                  :key="locale.key"
                   v-text="locale.title"
                 ></option>
               </select>
@@ -33,10 +33,10 @@
             <div class="input-group">
               <label for="bible_interval">Duration</label>
               <select name="interval" id="bible_interval" v-model="selectedInterval">
-                <option 
+                <option
                   v-for="item in interval"
-                  :value="item.time" 
-                  :key="item.time" 
+                  :value="item.time"
+                  :key="item.time"
                   v-text="item.title"
                 ></option>
               </select>
