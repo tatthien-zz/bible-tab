@@ -5,9 +5,9 @@
   "description": "This extension will show a random Bible verse when you open a new tab.",
   "version": "1.1",
 
-  "browser_action": {
-    "default_icon": "images/default-icon.png",
-    "default_popup": "popup.html"
+  "browser_action": {},
+  "background": {
+    "scripts": ["extension.js"]
   },
   "icons": {
     "32": "images/icon-32.png",
