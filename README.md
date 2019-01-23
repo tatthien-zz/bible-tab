@@ -16,7 +16,7 @@ git clone https://github.com/tatthien/bible-tab.git
 
 1. Go to `chrome://extensions/`.
 2. Turn on the `Developer mode`.
-3. Click on the `Load unpacked extension...` button then select the project.
+3. Click on the `Load unpacked extension...` button then select the folder `dist` from project.
 
 ### 3. Install dependencies and start the development
 
