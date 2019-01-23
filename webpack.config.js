@@ -72,6 +72,7 @@ var webpackConfig = {
       new OptimizeCSSAssetsPlugin({})
     ]
   },
+  devtool: 'source-map',
 }
 
 
