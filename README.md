@@ -1,4 +1,5 @@
 <p align="center"><a href="https://chrome.google.com/webstore/detail/bible-tab/kncfgmibnbpjiebgonkmpgdoaedjkaed" target="_blank"><img src="https://raw.githubusercontent.com/tatthien/bible-tab/master/static/images/icon-128.png"></a></p>
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <h1 align="center">Bible Tab</h1>
 
@@ -36,3 +37,15 @@ While you developing or after building the production, you can load source of ex
 1. Go to `chrome://extensions/`.
 2. Turn on the `Developer mode`.
 3. Click on the `Load unpacked extension...` button then select the folder `dist` from project.
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://ansidev.xyz/"><img src="https://avatars1.githubusercontent.com/u/6688235?v=4" width="100px;" alt="Le Minh Tri"/><br /><sub><b>Le Minh Tri</b></sub></a><br /><a href="https://github.com/tatthien/bible-tab/commits?author=ansidev" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
