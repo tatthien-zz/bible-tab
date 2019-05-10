@@ -84,7 +84,7 @@ new Vue({
   },
   methods: {
     fetch () {
-      let endpoint = `https://open-logos.firebaseio.com/${this.getIndex()}.json?print=pretty`
+      let endpoint = `https://scripture.phuc.am/${this.getIndex()}.json`
       fetch(endpoint).then((response) => {
         return response.json()
       }).then((verse) => {
