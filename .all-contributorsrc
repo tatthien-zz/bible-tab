@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ansidev",
+      "name": "Le Minh Tri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6688235?v=4",
+      "profile": "https://ansidev.xyz/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "bible-tab",
+  "projectOwner": "tatthien",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
