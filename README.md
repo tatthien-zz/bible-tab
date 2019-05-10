@@ -5,7 +5,7 @@
 <p align="center">This Chrome / Firefox extension will show a Bible verse everytime you open a new tab.</p>
 
 [![Build Status](https://travis-ci.org/tatthien/bible-tab.svg?branch=master)](https://travis-ci.org/tatthien/bible-tab)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 ## Contribute
 
@@ -44,7 +44,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://ansidev.xyz/"><img src="https://avatars1.githubusercontent.com/u/6688235?v=4" width="100px;" alt="Le Minh Tri"/><br /><sub><b>Le Minh Tri</b></sub></a><br /><a href="https://github.com/tatthien/bible-tab/commits?author=ansidev" title="Code">💻</a></td></tr></table>
+<table><tr><td align="center"><a href="https://ansidev.xyz/"><img src="https://avatars1.githubusercontent.com/u/6688235?v=4" width="100px;" alt="Le Minh Tri"/><br /><sub><b>Le Minh Tri</b></sub></a><br /><a href="https://github.com/tatthien/bible-tab/commits?author=ansidev" title="Code">💻</a></td><td align="center"><a href="https://github.com/nampdn"><img src="https://avatars3.githubusercontent.com/u/26531658?v=4" width="100px;" alt="Noah Phom"/><br /><sub><b>Noah Phom</b></sub></a><br /><a href="https://github.com/tatthien/bible-tab/commits?author=nampdn" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
