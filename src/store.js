@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from 'axios';
 import format from 'date-fns/format';
-import subDay from 'date-fns/sub_days';
+import subDays from 'date-fns/subDays';
 
 Vue.use(Vuex);
 
@@ -32,7 +32,7 @@ const defaultScripture = {
 };
 
 const today = format(new Date(), 'DD-MM-YYYY');
-const yesterday = format(subDay(new Date(), 1), 'DD-MM-YYYY');
+const yesterday = format(subDays(new Date(), 1), 'DD-MM-YYYY');
 
 export default new Vuex.Store({
   state: {
