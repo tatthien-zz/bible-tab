@@ -6,7 +6,7 @@
 	"author": {
     "name": "Thien Nguyen",
     "email": "me@tatthien.com",
-    "url": "https://tatthien.com"
+    "url": "https://thien.dev"
   },
 	"scripts": {
 		"serve": "vue-cli-service serve",
