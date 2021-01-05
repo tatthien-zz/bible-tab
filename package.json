@@ -16,7 +16,7 @@
 		"contributors:generate": "all-contributors generate"
 	},
 	"dependencies": {
-		"axios": "^0.19.0",
+		"axios": "^0.21.1",
 		"core-js": "^2.6.9",
 		"date-fns": "^2.4.1",
 		"feather-icons": "^4.24.1",
